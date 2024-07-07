@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BookGadi</title>
+  <!--=============BOOTSTRAP CND LINK=================-->
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+  <!--=============OWN CSS=================-->
+
+  <link rel="stylesheet" href="contact.css">
+</head>
+
+<body class="container-fluid" data-bs-spy="scroll" data-bs-target="navbar" data-bs-offset="100">
+  <!--=============Navbar Started=================-->
+  <header>
+    <nav class="navbar navbar-expand-lg">
+      <div class="container">
+        <div class="navbar-brand">
+          <h2>BookGadi</h2>
+        </div>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent"
+          aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarContent">
+          <ul class="navbar-nav m-auto">
+            <li class="nav-item">
+              <a class="nav-link " href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="services.html">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="contact.html">Help</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://play.google.com/store/apps/details?id=job.bookvahan">Download</a>
+            </li>
+          </ul>
+        </div>
+         <!-- Button to open the modal -->
+<button onclick="document.getElementById('id01').style.display='block'">Sign Up</button>
+
+<!-- The Modal (contains the Sign Up form) -->
+<div id="id01" class="modal">
+  <span onclick="document.getElementById('id01').style.display='none'" class="close"title="Close Modal"></span>
+  <form class="modal-content" action="/action_page.php">
+    <div class="container">
+      <h1><b>Sign Up</b></h1>
+      <p>Please fill in this form to create an account.</p>
+      <hr>
+      <label for="email"><b>Email</b></label>
+      <input type="text" placeholder="Enter Email" name="email" required>
+
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+
+      <label for="psw-repeat"><b>Repeat Password</b></label>
+      <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+
+      <label>
+        <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+      </label>
+
+      <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+
+      <div class="clearfix">
+        <button type="button" onclick="document.getElementById('id01').style.display='none'" class=" cancelbtn"><b>X</b></button>
+        <button type="submit" class="signup">Sign Up</button>
+      </div>
+    </div>
+  </form>
+</div>
+      </div>
+    </nav>
+  </header>
+  <!--===============contacts starts here==================-->
+  <div  class="container-fluid" id="main" style="background-image: url(https://st4.depositphotos.com/2903611/29109/i/450/depositphotos_291091084-stock-photo-businessman-showing-contact-icons-virtual.jpg);"  class="img-fluid">
+    <div class="row add">
+      <h2>For More queries connect with us..</h2>
+    </div>
+    <br><br>
+    <div class="row">
+      <h3>Contact us at:<a href="">+918251017253</a></h3>
+    </div>
+    <div class="row  py-4">
+      <h3 class= "mt-4 pb-4">Mail at:<a href="Mailto:bookgadicustomercare@gmail.com">bookgadicustomercare@gmail.com</a></h3>
+    </div>
+  </div>
+    <!--===============contacts ends here==================-->
+    <footer class="container-fluid pt-4" style="background-color:rgb(3, 4, 60); box-shadow: 0 0 4px 8px rgb(239, 238, 238);">
+        <div class="footer-top m-4" style=" background-color:rgb(2, 49, 89); border-radius: 5px;">
+          <div class="row pt-1">
+            <div class="col-lg-4 col-md-6 align-content-center p-4">
+              <h4 style="text-align: center; color: rgba(251, 248, 245, 0.946);">Useful Links</h4>
+              <ul>
+                <li><i class="bx bx-chevron- align-content-center"></i> <a href="index.html">Home</a></li>
+                <li><i class="bx bx-chevron-right"></i> <a href="services.html">Services</a></li>
+                <li><i class="bx bx-chevron-right"></i> <a href="#">About Us</a></li>
+                <li><i class="bx bx-chevron-right"></i> <a href="https://play.google.com/store/apps/details?id=job.bookvahan">Downloads</a></li>
+                <li><i class="bx bx-chevron-right"></i> <a href="contact.html">Help</a></li>
+              </ul>
+            </div>
+            <div class="col-lg-4 col-md-6 align-content-center p-4">
+              <h4 style="text-align: center; color: white">Our Services</h4>
+              <ul>
+                <li><i class="bx bx-chevron-right"></i> <a href="#">Hire Hatchback Cars</a></li>
+                <li><i class="bx bx-chevron-right"></i> <a href="#">Hire Sedan cars</a></li>
+                <li><i class="bx bx-chevron-right"></i> <a href="#">Hire SUV And Larger Seater Car</a></li>
+                <li><i class="bx bx-chevron-right"></i> <a href="#">Hire Short Distance Travel Vehicle</a></li>
+                <li><i class="bx bx-chevron-right"></i> <a href="#">Hire All Kind Of Buses</a></li>
+                <li><i class="bx bx-chevron-right"></i> <a href="#">Hire tranportation service Vehicle</a></li>
+                <li><i class="bx bx-chevron-right"></i> <a href="#">Hire Construction Vehicle</a></li>
+                <li><i class="bx bx-chevron-right"></i> <a href="#">Hire Heavy Goods and Transport Vehicle
+                </a></li>
+  
+              </ul>
+            </div>
+            <div class="col-lg-4 col-md-6 pt-4 d-inline-block align-content-center" >
+              <h4 style="text-align: center ;color:white;">Contact Us</h4>
+              <p style="text-align: center;">
+                <br>
+                <strong>Phone:</strong>+918251017253<br>
+                <br>
+                <strong>Email:</strong>bookgadicustomercare@gmail.com
+                <br>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="container-fluid p-1">
+          <div class="mt-4 bg-secondary" style="text-align: center; border-radius: 2px; color: hsl(0, 0%, 95%);">
+            &copy; Copyright <strong>
+              <span>BookGadi.com</span>
+            </strong> All Rights Reserved
+          </div>
+          <div class="credits">
+            <!-- All the links in the footer should remain intact. -->
+            <!-- You can delete the links only if you purchased the pro version. -->
+            <!-- Licensing information: https://bootstrapmade.com/license/ -->
+            <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/bethany-free-onepage-bootstrap-theme/ -->
+          </div>
+        </div>
+        </div>
+      <!-- End Footer -->
+    </footer>
+    <!--===============JS CND link==================-->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+          integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+          crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+          integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+          crossorigin="anonymous"></script>-->
+  </body>
+  
+  </html>
